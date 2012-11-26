@@ -1,4 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>Hal</n>
+            <c>zircote.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>Apache 2.0</l>
+            <s>A PHP library for HAL generation</s>
+            <d>HAL is a simple way of linking with JSON or XML.
 
+It provides a set of conventions for expressing hyperlinks to, and embeddedness of, related resources - the rest of a HAL document is just plain old JSON or XML.
+
+HAL is a bit like HTML for machines, in that it is designed to drive many different types of application. The difference is that HTML is intended for presenting a graphical hypertext interface to a 'human actor', whereas HAL is intended for presenting a machine hypertext interface to 'automated actors'.
+
+This document contains a formalised specification of HAL. For a friendlier, more pracitcal introduction to HAL you can read this article: JSON Linking with HAL
+
+HAL has two main components: Resources and Links.
+
+ - https://github.com/zircote/Hal
+ - http://groups.google.com/group/hal-discuss
+ - http://stateless.co/hal_specification.html
+ - http://blog.stateless.co/post/13296666138/json-linking-with-hal
+ - http://www.mnot.net/blog/2011/11/25/linking_in_json
+ - https://gist.github.com/2289546</d>
+            <r xlink:href="/rest/r/hal" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Swagger</n>
+            <c>zircote.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>Apache 2.0</l>
+            <s>A PHP library for swagger resource generation</s>
+            <d>Swagger-PHP is a PHP library that servers as an annotations toolkit to produce Swagger Doc it makes extensive use of the Doctine Common library for annotations support and caching.
+
+Download:
+ - http://zircote.com/pear
+ - tarball: https://github.com/zircote/swagger-php/downloads
+ - Clone Via git: https://github.com/zircote/swagger-php.git
+
+
+Documentation http://zircote.com/swagger-php
+
+To submit changes, additions or updates to the documentation or swagger-php itself please fork the project and submit a pull request. Documentation resides within the gh-pages branch.
+
+To report issues, ask questions please feel free to submit to Github Isses
+
+Features:
+ - Fully compatible with the full swagger documented proposal.
+ - Cacheing layer using the \Doctrine\Common\Cache library
+ - Full project discovery
+ - standalone CLI phar implementation
+ - Free
+
+More on Swagger:
+ - http://swagger.wordnik.com/
+ - https://github.com/wordnik/swagger-core/wiki
+ - https://github.com/outeredge/SwaggerModule a ZF2 Module implementing swagger-php</d>
+            <r xlink:href="/rest/r/swagger" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.4.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.4.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}}}</d>
+        </deps>
+
+    </pi>
 </f>

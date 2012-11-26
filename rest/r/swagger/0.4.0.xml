@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/swagger">Swagger</p>
+    <c>zircote.com/pear</c>
+    <v>0.4.0</v>
+    <st>alpha</st>
+    <l>Apache 2.0</l>
+    <m>zircote</m>
+    <s>A PHP library for swagger resource generation</s>
+    <d>Swagger-PHP is a PHP library that servers as an annotations toolkit to produce Swagger Doc it makes extensive use of the Doctine Common library for annotations support and caching.
+
+Download:
+ - http://zircote.com/pear
+ - tarball: https://github.com/zircote/swagger-php/downloads
+ - Clone Via git: https://github.com/zircote/swagger-php.git
+
+
+Documentation http://zircote.com/swagger-php
+
+To submit changes, additions or updates to the documentation or swagger-php itself please fork the project and submit a pull request. Documentation resides within the gh-pages branch.
+
+To report issues, ask questions please feel free to submit to Github Isses
+
+Features:
+ - Fully compatible with the full swagger documented proposal.
+ - Cacheing layer using the \Doctrine\Common\Cache library
+ - Full project discovery
+ - standalone CLI phar implementation
+ - Free
+
+More on Swagger:
+ - http://swagger.wordnik.com/
+ - https://github.com/wordnik/swagger-core/wiki
+ - https://github.com/outeredge/SwaggerModule a ZF2 Module implementing swagger-php</d>
+    <da>2012-11-26 07:58:27</da>
+    <n>
+This is an alpha release, see readme.md for examples.
+ </n>
+    <f>234669</f>
+    <g>http://zircote.com/pear/get/Swagger-0.4.0</g>
+    <x xlink:href="package.0.4.0.xml"/>
+</r>
