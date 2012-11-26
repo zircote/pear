@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>zircote.com/pear</name>
+  <summary>Zircote PEAR channel</summary>
+  <alias>zircote</alias>
+  <url>http://zircote.com/pear/</url>
+</server>
