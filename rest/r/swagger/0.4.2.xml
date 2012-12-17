@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
-<n>Swagger</n>
-<c>zircote.com/pear</c>
-<ca xlink:href="/rest/c/Default">Default</ca>
-<l>Apache 2.0</l>
-<s>A PHP library for swagger resource generation</s>
-<d>swagger-php
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/swagger">Swagger</p>
+    <c>zircote.com/pear</c>
+    <v>0.4.2</v>
+    <st>beta</st>
+    <l>Apache 2.0</l>
+    <m>zircote</m>
+    <s>A PHP library for swagger resource generation</s>
+    <d>swagger-php
 ============
 
  - [![Master Build Status](https://secure.travis-ci.org/zircote/swagger-php.png?branch=master)](http://travis-ci.org/zircote/swagger-php) `master`
@@ -39,5 +41,11 @@ Features
   * http://swagger.wordnik.com/
   * https://github.com/wordnik/swagger-core/wiki
   * https://github.com/outeredge/SwaggerModule a ZF2 Module implementing swagger-php</d>
-<r xlink:href="/rest/r/swagger" />
-</p>
+    <da>2012-12-17 09:07:37</da>
+    <n>
+This is an alpha release, see readme.md for examples.
+ </n>
+    <f>317339</f>
+    <g>http://zircote.com/pear/get/Swagger-0.4.2</g>
+    <x xlink:href="package.0.4.2.xml"/>
+</r>

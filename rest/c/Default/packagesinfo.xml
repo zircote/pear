@@ -49,7 +49,8 @@ HAL has two main components: Resources and Links.
             <d>swagger-php
 ============
 
-[![Build Status](https://secure.travis-ci.org/zircote/swagger-php.png)](http://travis-ci.org/zircote/swagger-php)
+ - [![Master Build Status](https://secure.travis-ci.org/zircote/swagger-php.png?branch=master)](http://travis-ci.org/zircote/swagger-php) `master`
+ - [![0.5.0 Development Build Status](https://secure.travis-ci.org/zircote/swagger-php.png?branch=0.5.0)](http://travis-ci.org/zircote/swagger-php) `0.5.0-dev`
 
 [Documentation](http://zircote.com/swagger-php)
 
@@ -70,7 +71,7 @@ annotations support and caching.
 Features
 -------------------
  - Fully compatible with the full swagger documented proposal.
- - Cacheing layer using the `\Doctrine\Common\Cache` library
+ - Caching layer using the `\Doctrine\Common\Cache` library
  - Full project discovery
  - standalone CLI phar implementation
  - Free
@@ -84,6 +85,10 @@ Features
 
         <a>
             <r>
+                <v>0.4.2</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>0.4.1</v>
                 <s>beta</s>
             </r>
@@ -94,6 +99,10 @@ Features
 
         </a>
 
+        <deps>
+            <v>0.4.2</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}s:7:"package";a:2:{s:4:"name";s:14:"DoctrineCommon";s:7:"channel";s:25:"pear.doctrine-project.org";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"symfony";s:7:"channel";s:24:"pear.symfony-project.com";}}}</d>
+        </deps>
         <deps>
             <v>0.4.1</v>
             <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}s:7:"package";a:2:{s:4:"name";s:14:"DoctrineCommon";s:7:"channel";s:25:"pear.doctrine-project.org";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"symfony";s:7:"channel";s:24:"pear.symfony-project.com";}}}</d>
