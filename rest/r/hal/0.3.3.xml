@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/hal">Hal</p>
+    <c>zircote.com/pear</c>
+    <v>0.3.3</v>
+    <st>beta</st>
+    <l>Apache 2.0</l>
+    <m>zircote</m>
+    <s>A PHP library for HAL generation</s>
+    <d>HAL is a simple way of linking with JSON or XML.
+
+It provides a set of conventions for expressing hyperlinks to, and embeddedness of, related resources - the rest of a HAL document is just plain old JSON or XML.
+
+HAL is a bit like HTML for machines, in that it is designed to drive many different types of application. The difference is that HTML is intended for presenting a graphical hypertext interface to a 'human actor', whereas HAL is intended for presenting a machine hypertext interface to 'automated actors'.
+
+This document contains a formalised specification of HAL. For a friendlier, more pracitcal introduction to HAL you can read this article: JSON Linking with HAL
+
+HAL has two main components: Resources and Links.
+
+ - https://github.com/zircote/Hal
+ - http://groups.google.com/group/hal-discuss
+ - http://stateless.co/hal_specification.html
+ - http://blog.stateless.co/post/13296666138/json-linking-with-hal
+ - http://www.mnot.net/blog/2011/11/25/linking_in_json
+ - https://gist.github.com/2289546</d>
+    <da>2013-04-03 18:21:25</da>
+    <n>
+This is an alpha release, see readme.md for examples.
+ </n>
+    <f>14333</f>
+    <g>http://zircote.com/pear/get/Hal-0.3.3</g>
+    <x xlink:href="package.0.3.3.xml"/>
+</r>

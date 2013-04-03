@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zircote.com/pear</id>
-    <updated>2013-04-03T17:50:24+00:00</updated>
+    <updated>2013-04-03T18:24:01+00:00</updated>
     <title>Zircote PEAR channel Latest Releases</title>
     <link href="http://zircote.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>Hal 0.3.3 (beta)</title>
+        <link href="http://zircote.com/pear/get/Hal-0.3.3.tgz" />
+        <id>http://zircote.com/pear/get/Hal-0.3.3.tgz</id>
+        <author>
+            <name>zircote</name>
+        </author>
+        <updated>2013-04-03T18:21:25+00:00</updated>
+        <content>
+            
+This is an alpha release, see readme.md for examples.
+ 
+        </content>
+    </entry>    <entry>
         <title>Hal 0.2.0 (beta)</title>
         <link href="http://zircote.com/pear/get/Hal-0.2.0.tgz" />
         <id>http://zircote.com/pear/get/Hal-0.2.0.tgz</id>

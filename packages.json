@@ -1,6 +1,31 @@
 {
     "pear-zircote\/Hal": {
         "versions": {
+            "0.3.3": {
+                "name": "pear-zircote\/Hal",
+                "description": "A PHP library for HAL generation",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/zircote.com\/pear\/get\/Hal-0.3.3.tgz"
+                },
+                "version": "0.3.3",
+                "time": "2013-04-03T18:21:25+00:00",
+                "require": {
+                    "php": ">=5.3.3"
+                },
+                "authors": [
+                    {
+                        "name": "Robert Allen",
+                        "email": "zircote@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/Hal"
+                    ]
+                }
+            },
             "0.2.0": {
                 "name": "pear-zircote\/Hal",
                 "description": "A PHP library for HAL generation",

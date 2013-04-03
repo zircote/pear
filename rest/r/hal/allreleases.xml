@@ -3,6 +3,10 @@
     <p>Hal</p>
     <c>zircote.com/pear</c>
     <r>
+        <v>0.3.3</v>
+        <s>beta</s>
+    </r>
+    <r>
         <v>0.2.0</v>
         <s>beta</s>
     </r>

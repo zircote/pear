@@ -28,12 +28,20 @@ HAL has two main components: Resources and Links.
 
         <a>
             <r>
+                <v>0.3.3</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>0.2.0</v>
                 <s>beta</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>0.3.3</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}}}</d>
+        </deps>
         <deps>
             <v>0.2.0</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.7.0";}}}</d>
