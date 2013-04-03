@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Swagger</name>
+ <channel>zircote.com/pear</channel>
+ <summary>A PHP library for swagger resource generation</summary>
+ <description>swagger-php
+============
+
+ - [![Master Build Status](https://secure.travis-ci.org/zircote/swagger-php.png?branch=master)](http://travis-ci.org/zircote/swagger-php) `master`
+ - [![0.5.0 Development Build Status](https://secure.travis-ci.org/zircote/swagger-php.png?branch=0.5.0)](http://travis-ci.org/zircote/swagger-php) `0.5.0-dev`
+
+[Documentation](http://zircote.com/swagger-php)
+
+Download:
+ - http://zircote.com/pear
+ - tarball: https://github.com/zircote/swagger-php/downloads
+ - Clone Via git: https://github.com/zircote/swagger-php.git
+
+Swagger-PHP is a PHP library that servers as an annotations toolkit to produce [Swagger Doc](http://swagger.wordnik.com)
+it makes extensive use of the [Doctine Common library](http://www.doctrine-project.org/projects/common.html) for
+annotations support and caching.
+
+ - Documentation http://zircote.com/swagger-php
+    - To submit changes, additions or updates to the documentation or swagger-php itself please fork the project and
+    submit a pull request. Documentation resides within the `gh-pages` branch.
+ - To report issues, ask questions please feel free to submit to [Github Isses](https://github.com/zircote/swagger-php/issues)
+
+Features
+-------------------
+ - Fully compatible with the full swagger documented proposal.
+ - Caching layer using the `\Doctrine\Common\Cache` library
+ - Full project discovery
+ - Standalone CLI phar implementation
+ - Free
+
+ More on Swagger:
+  * http://swagger.wordnik.com/
+  * https://github.com/wordnik/swagger-core/wiki
+  * https://github.com/outeredge/SwaggerModule a ZF2 Module implementing swagger-php</description>
+ <lead>
+  <name>Robert Allen</name>
+  <user>zircote</user>
+  <email>zircote@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-04-03</date>
+ <time>17:46:01</time>
+ <version>
+  <release>0.6.0</release>
+  <api>0.6.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</license>
+ <notes>
+This is an alpha release, see readme.md for examples.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c5e967a383bdbf421d4cda539f547be1" name="bin/swagger" role="script" />
+   <file baseinstalldir="/" md5sum="a543fa3b5b35aae5b51bbd1ceb9c657b" name="library/Swagger/Annotations/AbstractAnnotation.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="522000c3488a09ba5a98dd3811c2b70b" name="library/Swagger/Annotations/AllowableValues.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9e6e249c58553d0b6c6634cfd574b631" name="library/Swagger/Annotations/Api.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="84fd811f008385a4869d98cedc456b5d" name="library/Swagger/Annotations/ErrorResponse.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="50d762b577b2e29aa577ff9d5f5681a4" name="library/Swagger/Annotations/ErrorResponses.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3a2a9589c65d15f782bf59ac202a38a8" name="library/Swagger/Annotations/Items.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70d109f52b921944d8afebc904816711" name="library/Swagger/Annotations/Model.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bd36dca51bca23357bb9713d2bf4339a" name="library/Swagger/Annotations/Operation.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e171a94a7f828f837908b060e205fdfb" name="library/Swagger/Annotations/Operations.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c039c9d8b5b50c2b4cbb49e22da01012" name="library/Swagger/Annotations/Parameter.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9558f8b16fbb122af2370a35a35d5ec2" name="library/Swagger/Annotations/Parameters.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1e54f6cd35ccd6c305fae811b4a184b7" name="library/Swagger/Annotations/Properties.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="af8561c6d6f83f3b242d9b41bafa8614" name="library/Swagger/Annotations/Property.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3e1a913c15bd3292d07c3efaf2c7e491" name="library/Swagger/Annotations/Resource.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1bd1050e6e22a16e87f71f20c95f693b" name="library/Swagger/Logger.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="38cfcad0afe89740824e341abe04edf0" name="library/Swagger/Parser.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d7c50d1944d0eb3b4ac3742b67db5e9b" name="library/Swagger/Swagger.php" role="php">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="206e8974bb9df0babc16b43d93f0b40c" name="tests/SwaggerTests/Fixtures/Models/Category.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6eb33338c396ff5bc150e9a164fa185b" name="tests/SwaggerTests/Fixtures/Models/Order.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e728630f022d3a22b248de923722500" name="tests/SwaggerTests/Fixtures/Models/Pet.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="281db628ebb674d66a330cc58e36a171" name="tests/SwaggerTests/Fixtures/Models/Sidekick.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b3fd2f8bb78ca977f2465a2f8833f93" name="tests/SwaggerTests/Fixtures/Models/Tag.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c009e50272b7de054f483de0e9e6838" name="tests/SwaggerTests/Fixtures/Models/User.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="94ce8082405d6fa1e023e24fd29b2edc" name="tests/SwaggerTests/Fixtures/Resources/Pet.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="989d5f790cb85140645188a7317d07a1" name="tests/SwaggerTests/Fixtures/Resources/Store.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="11950e7b2b4b4a35e6b2d340af766f37" name="tests/SwaggerTests/Fixtures/Resources/User.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4d58360cce8be5761f244c43dd0994a0" name="tests/SwaggerTests/Fixtures/api-docs.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6748bb1890e8f12f2413eacc9dcc1e33" name="tests/SwaggerTests/Fixtures/pet.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e5a48889bd75f345ccfcc8aaf54df532" name="tests/SwaggerTests/Fixtures/resources.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="26666479d3072a67a3a81eb5148e8248" name="tests/SwaggerTests/Fixtures/sidekick.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fd5a30d9fbf5c850814a936c352eaa73" name="tests/SwaggerTests/Fixtures/store.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4804d21df550df244b83c7109882a225" name="tests/SwaggerTests/Fixtures/user.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c319925558555babee27f4e1ddfdece" name="tests/SwaggerTests/Fixtures1/Models/Facet.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="be3f9c6fa4ff4dae8a92838c8e7d145a" name="tests/SwaggerTests/Fixtures1/Models/FacetResult.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d0cd681da8125f3a70053f0537708d4d" name="tests/SwaggerTests/Fixtures1/Models/FacetSet.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="42bd95d85b81700aa2fe17ca6f55f2a9" name="tests/SwaggerTests/Fixtures1/Resources/FacetResource.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="99d4df7a1ec085a0bbf7da3373a1164c" name="tests/SwaggerTests/Fixtures1/facet.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="665487fa094fb53f19e569960a166c60" name="tests/SwaggerTests/Fixtures2/Models/Pet.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8a0e80945da8a7eaa32f40802945c21e" name="tests/SwaggerTests/Fixtures2/Resources/Operations.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="64e0de6d062045315954a35f54d5bd12" name="tests/SwaggerTests/Fixtures2/multi-op.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="75dc33fb0283d8a230fd1459d514a749" name="tests/SwaggerTests/Fixtures2/pet.json" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="707d2fa1c3e1e36a6933c5753a689d0b" name="tests/SwaggerTests/SwaggerTest.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d90141bbeed1ac11b6d93e0719ee94ba" name="tests/bootstrap.php" role="test">
+    <tasks:replace from="@name@" to="name" type="package-info" />
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6abc0b3e82183017ad4e3eae618a435c" name="CHANGELOG" role="doc" />
+   <file baseinstalldir="/" md5sum="3b83ef96387f14655fc854ddc3c6bd57" name="LICENSE-2.0.txt" role="doc" />
+   <file baseinstalldir="/" md5sum="dc8c4bab6202d44f14fefd0278b6c570" name="readme.md" role="doc" />
+   <file baseinstalldir="/" md5sum="2ef35083903ab8f089079ba1e53be84c" name="swagger.phar" role="data" />
+   <file baseinstalldir="/" md5sum="bb915c2d770c0e63fccc1b91484c0205" name="Vagrantfile" role="data" />
+   <file baseinstalldir="/" md5sum="335e29d8085b1816c6304031b6a592af" name="VERSION" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.7.0</min>
+   </pearinstaller>
+   <package>
+    <name>DoctrineCommon</name>
+    <channel>pear.doctrine-project.org</channel>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="Swagger/Annotations/AbstractAnnotation.php" name="library/Swagger/Annotations/AbstractAnnotation.php" />
+   <install as="Swagger/Annotations/AllowableValues.php" name="library/Swagger/Annotations/AllowableValues.php" />
+   <install as="Swagger/Annotations/Api.php" name="library/Swagger/Annotations/Api.php" />
+   <install as="Swagger/Annotations/ErrorResponse.php" name="library/Swagger/Annotations/ErrorResponse.php" />
+   <install as="Swagger/Annotations/ErrorResponses.php" name="library/Swagger/Annotations/ErrorResponses.php" />
+   <install as="Swagger/Annotations/Items.php" name="library/Swagger/Annotations/Items.php" />
+   <install as="Swagger/Annotations/Model.php" name="library/Swagger/Annotations/Model.php" />
+   <install as="Swagger/Annotations/Operation.php" name="library/Swagger/Annotations/Operation.php" />
+   <install as="Swagger/Annotations/Operations.php" name="library/Swagger/Annotations/Operations.php" />
+   <install as="Swagger/Annotations/Parameter.php" name="library/Swagger/Annotations/Parameter.php" />
+   <install as="Swagger/Annotations/Parameters.php" name="library/Swagger/Annotations/Parameters.php" />
+   <install as="Swagger/Annotations/Properties.php" name="library/Swagger/Annotations/Properties.php" />
+   <install as="Swagger/Annotations/Property.php" name="library/Swagger/Annotations/Property.php" />
+   <install as="Swagger/Annotations/Resource.php" name="library/Swagger/Annotations/Resource.php" />
+   <install as="Swagger/Logger.php" name="library/Swagger/Logger.php" />
+   <install as="Swagger/Parser.php" name="library/Swagger/Parser.php" />
+   <install as="Swagger/Swagger.php" name="library/Swagger/Swagger.php" />
+  </filelist>
+ </phprelease>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.6.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-04-03</date>
+   <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</license>
+   <notes>
+This is an alpha release, see readme.md for examples.
+   </notes>
+  </release>
+ </changelog>
+</package>

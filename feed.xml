@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zircote.com/pear</id>
-    <updated>2012-12-17T06:25:12-06:00</updated>
+    <updated>2013-04-03T17:50:24+00:00</updated>
     <title>Zircote PEAR channel Latest Releases</title>
     <link href="http://zircote.com/pear/feed.xml" rel="self" />
     <author>
@@ -15,7 +15,20 @@
         <author>
             <name>zircote</name>
         </author>
-        <updated>2012-11-26T07:54:17-06:00</updated>
+        <updated>2012-11-26T07:54:17+00:00</updated>
+        <content>
+            
+This is an alpha release, see readme.md for examples.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Swagger 0.6.0 (beta)</title>
+        <link href="http://zircote.com/pear/get/Swagger-0.6.0.tgz" />
+        <id>http://zircote.com/pear/get/Swagger-0.6.0.tgz</id>
+        <author>
+            <name>zircote</name>
+        </author>
+        <updated>2013-04-03T17:46:01+00:00</updated>
         <content>
             
 This is an alpha release, see readme.md for examples.
@@ -28,7 +41,7 @@ This is an alpha release, see readme.md for examples.
         <author>
             <name>zircote</name>
         </author>
-        <updated>2012-12-17T09:07:37-06:00</updated>
+        <updated>2012-12-17T09:07:37+00:00</updated>
         <content>
             
 This is an alpha release, see readme.md for examples.
@@ -41,7 +54,7 @@ This is an alpha release, see readme.md for examples.
         <author>
             <name>zircote</name>
         </author>
-        <updated>2012-12-16T03:26:15-06:00</updated>
+        <updated>2012-12-16T03:26:15+00:00</updated>
         <content>
             
 This is an alpha release, see readme.md for examples.
@@ -54,7 +67,7 @@ This is an alpha release, see readme.md for examples.
         <author>
             <name>zircote</name>
         </author>
-        <updated>2012-11-26T07:58:27-06:00</updated>
+        <updated>2012-11-26T07:58:27+00:00</updated>
         <content>
             
 This is an alpha release, see readme.md for examples.
